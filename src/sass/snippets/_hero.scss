@@ -1,0 +1,56 @@
+.hero-section{
+    @extend .position-relative;
+    @extend .bg-primary;
+    @extend .text-white;
+    z-index: 1;
+    padding-top: var(--hero-section-padding-top, 6rem);
+
+    .bottom-layer{
+        width: 100%;
+        max-width: var(--hero-section-bottom-layer-max-width, 31rem);
+
+        @include media-breakpoint-between(md, xl){
+            --hero-section-bottom-layer-max-width: 46vw;
+        }
+        @include media-breakpoint-up(xxl){
+            --hero-section-bottom-layer-max-width: 41vw;
+        }
+        
+    }
+
+    &-bg {
+        @extend .position-absolute;
+        @extend .top-0;
+        @extend .start-0;
+        @extend .end-0;
+        @extend .bottom-0;
+        @extend .h-100;
+        @extend .w-100;
+        z-index: -1;
+        object-fit: cover;
+    }
+
+    @include media-breakpoint-up(lg){
+        --hero-section-padding-top: 14rem;
+    }
+    
+    .hero-section-banner{
+        width: 100%;
+        max-width: var(--hero-section-banner-max-width, 31rem);
+
+        @include media-breakpoint-between(md, xl){
+            --hero-section-banner-max-width: 46vw;
+        }
+        @include media-breakpoint-up(xxl){
+            --hero-section-banner-max-width: 41vw;
+        }
+        
+        @include media-breakpoint-up(lg){
+            right: 1.5rem;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-43%);
+        }
+    }
+
+}

@@ -1,0 +1,155 @@
+// Button Contrast
+// $min-contrast-ratio: 2;
+
+// OTHER COLORS
+$white:    #fff !default;
+$gray-100: #F8F9FA !default;
+$gray-200: #f1f1f1 !default;
+$gray-300: #D9DBE1 !default;
+$gray-400: #ced4da !default;
+$gray-500: #a3a5ad !default;
+$gray-600: #6c757d !default;
+$gray-700: #475467 !default;
+$gray-800: #343a40 !default;
+$gray-900: #101828 !default;
+$black:    #000 !default;
+
+// COLORS
+$primary: #5F29FF;
+$danger: #f93042;
+$success: #00ab55;
+$secondary: #a4a5ad;
+$warning: #FFCE25;
+$dark:$gray-900;
+
+
+// FONT SIZES
+$fs-xs:   8px;
+$fs-sm:   14px;
+$fs-md:   16px;
+$fs-lg:   18px;
+$fs-xl:   20px;
+$fs-2xl:  22px;
+$fs-3xl:  24px;
+$fs-4xl:  36px;
+$fs-5xl:  40px;
+$fs-6xl:  60px;
+$fs-7xl:  70px;
+
+// $fs-xs:   8px;
+// $fs-sm:   10px;
+// $fs-md:   12px;
+// $fs-lg:   15px;
+// $fs-xl:   18px;
+// $fs-2xl:  22px;
+// $fs-3xl:  26px;
+// $fs-4xl:  30px;
+// $fs-5xl:  46px;
+// $fs-6xl:  54px;
+
+
+// HEADING FONT SIZE
+$h1-font-size: $fs-5xl;
+$h2-font-size:  $fs-4xl;
+$h3-font-size:  $fs-2xl;
+$h4-font-size:  $fs-xl;
+$h5-font-size:  $fs-lg;
+$h6-font-size:  $fs-md;
+
+
+// SIZES LIST
+$sizes-list : (
+  "xs": $fs-xs,
+  "sm": $fs-sm,
+  "md": $fs-md,
+  "lg": $fs-lg,
+  "xl": $fs-xl,
+  "2xl": $fs-2xl,
+  "3xl": $fs-3xl,
+  "4xl": $fs-4xl,
+  "5xl": $fs-5xl,
+  "6xl": $fs-6xl,
+  "7xl": $fs-7xl,
+) !default;
+
+
+// CONTAINER
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1120px,
+  xxl: 1320px,
+);
+
+// DISPLAY FONT SIZES
+$display-font-sizes: (
+  1: 7rem,
+  2: 4.5rem,
+  3: 4rem,
+  4: 3.5rem,
+  5: 3rem,
+  6: 2.5rem
+);
+
+
+// Spacers List
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 2.5,
+  6: $spacer * 4,
+  7: $spacer * 5,
+  8: $spacer * 6,
+  9: $spacer * 7,
+  10: $spacer * 8,
+  11: $spacer * 9,
+  12: $spacer * 10,
+) !default;
+
+
+// Border
+// $border-radius: 0rem;
+// $border-radius-lg: 1.5rem;
+// $border-radius: 0.25rem;
+// $border-radius-lg: 1.5rem;
+
+$border-color: $gray-200;
+
+
+$enable-shadows: true;
+
+// Font Family
+$ff-primary:  'Work Sans', sans-serif;
+$ff-secondary:  'Inter', sans-serif;
+$ff-tertiary:  $ff-primary;
+
+// Box Shadow
+// $box-shadow: 0 0 8px -2px rgba(0, 0, 0, 0.1);
+$box-shadow: 0px 14px 54px rgba(0,0,0,0.03);
+
+
+$headings-font-family:        $ff-secondary;
+
+
+
+
+
+
+// Accordion
+$accordion-bg: transparent;
+$accordion-border-width:   0;
+$accordion-button-bg: transparent;
+$accordion-button-focus-border-color: transparent;
+$accordion-button-focus-box-shadow: none;
+$accordion-border-radius: 0;
+$accordion-button-active-bg:  transparent;
+$accordion-padding-x: 0;
+$accordion-button-color:  $dark;
+$accordion-icon-color: $primary;
+$accordion-button-icon:         url('data:image/svg+xml,<svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="20.5" cy="20.5" r="20" stroke="black"/><rect x="12" y="18" width="18" height="5" rx="2.5" fill="#{$accordion-icon-color}"/></svg>');
+$accordion-icon-width: 30px;
