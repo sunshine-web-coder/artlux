@@ -31,10 +31,8 @@ const Roadmap = () => {
                             <div className='list-content list-content-up purple'>
                                 <span className="list-start-icon"><FaDotCircle /></span>
                                 <ul className="list-unstyled">
-                                    <li>Nft marketplace launch</li>
-                                    <li>Lottery platform launch </li>
-                                    <li>Multi chain support </li>
-                                    <li>NFT lottery launch</li>
+                                    <li>Real Estate NFT marketplace launch</li>
+                                    <li>Play to earn Game launch</li>
                                 </ul>
                             </div>
                         </div>
