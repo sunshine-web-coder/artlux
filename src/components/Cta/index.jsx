@@ -34,10 +34,9 @@ const Cta = () => {
                 <div className="col-lg-6 col-xl-5">
                     <div className="cta-content lh-lg">
                         <h3 className="fs-4xl fs-lg-6xl text-black fw-bold mb-3">NFT  Marketplace</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ultricies mauris non interdum fringilla. Morbi et euismod mauris, quis convallis diam. Aliquam luctus</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ultricies mauris non interdum fringilla.</p>
+                        <p>Create, sell, and collect rare digital arts on Artlux NFT Marketplace. Buy and sell NFTs minted on different blockchains. Exclusive marketplace for high-value real estate properties, including LAND and virtual properties.</p>
                         <div className="mt-4">
-                            <a href='#' className="btn btn-warning">Get Started</a>
+                            <a href='#' className="btn btn-warning">Start Collecting NFTs</a>
                         </div>
                     </div>
                 </div>

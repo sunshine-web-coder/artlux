@@ -57,6 +57,7 @@ const Features = () => {
                   </div>
                 </div>
               </div>
+              <a href='#' className="btn btn-warning">Start Collecting</a>
             </div>
           ) : (
             <div className="col-lg-9 features-section-line">
@@ -113,6 +114,7 @@ const Features = () => {
                   </div>
                 </div>
               </div>
+              <a href='#' className="btn btn-warning">Start Playing</a>
             </div>
           )}
         </div>

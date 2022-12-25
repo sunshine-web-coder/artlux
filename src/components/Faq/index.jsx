@@ -4,28 +4,24 @@ import Accordion from 'react-bootstrap/Accordion';
 const Faq = () => {
     const data = [
         {
-            title: "Lorem ipsum dolor sit amet, consectetur",
-            content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ultricies mauris non interdum fringilla. Morbi et euismod mauris, quis convallis diam. Aliquam luctus",
+            title: "What is the Artlux Token?",
+            content: "Artlux Token is the utility token of the Artlux ecosystem used to pay for transactions and rewards and also maintain liquidity on Artlux. Artlux Token (ATX) is a BEP20 token, making it compatible with the Ethereum Virtual Machine.",
         },
         {
-            title: "Lorem ipsum dolor sit amet, consectetur",
-            content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ultricies mauris non interdum fringilla. Morbi et euismod mauris, quis convallis diam. Aliquam luctus",
+            title: "What is Artlux NFT Lottery?",
+            content: "Artlux NFT Lottery is a program designed to boost the earning potential of NFT artists on Artlux. NFT creators and collectors earn additional passive income by staking their idle NFTs in a draw and earning more tokens in the process if they win.",
         },
         {
-            title: "Lorem ipsum dolor sit amet, consectetur",
-            content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ultricies mauris non interdum fringilla. Morbi et euismod mauris, quis convallis diam. Aliquam luctus",
+            title: "What is Artlux NFT real estate?",
+            content: "Artlux is leading the new wave of NFT real estate. On the Artlux NFT marketplace, you can buy real estate properties, including LAND and tokenized/virtual properties using the Artlux or Binance tokens. You can build/develop your LAND and resell at a fair market value still on the Artlux NFT marketplace.",
         },
         {
-            title: "Lorem ipsum dolor sit amet, consectetur",
-            content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ultricies mauris non interdum fringilla. Morbi et euismod mauris, quis convallis diam. Aliquam luctus",
+            title: "What is Artlux Token tokenomics?",
+            content: "Artlux has a total supply of 1 million ATX tokens with a decimal of eighteen. ",
         },
         {
-            title: "Lorem ipsum dolor sit amet, consectetur",
-            content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ultricies mauris non interdum fringilla. Morbi et euismod mauris, quis convallis diam. Aliquam luctus",
-        },
-        {
-            title: "Lorem ipsum dolor sit amet, consectetur",
-            content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ultricies mauris non interdum fringilla. Morbi et euismod mauris, quis convallis diam. Aliquam luctus",
+            title: "Where to buy Artlux Tokens and NFTs",
+            content: "Artlux NFTs are purchased on Artlux’s NFT marketplace available on its official website/platform. On the other hand, the Artlux Token can be purchased via a whitelisted crypto exchange or directly from Artlux official liquidity pool. More information on purchasing the Artlux Token will be announced on Artlux’s blog.",
         },
     ]
   return (
@@ -42,15 +38,9 @@ const Faq = () => {
                             <>
                             <h3 className="faq-number"><span>{i+1}</span></h3>
                             <Accordion.Item key={i} eventKey={i}>
-                                <Accordion.Header>Lorem ipsum dolor sit amet, consectetur</Accordion.Header>
+                                <Accordion.Header>{item.title}</Accordion.Header>
                                 <Accordion.Body>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                culpa qui officia deserunt mollit anim id est laborum.
+                                {item.content}
                                 </Accordion.Body>
                             </Accordion.Item>
                             </>
