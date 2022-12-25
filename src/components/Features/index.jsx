@@ -23,26 +23,26 @@ const Features = () => {
                 </div>
                 <div className="col-lg-9 features-section-line">
                     <div className="pe-lg-7">
-                        <div className="section-heading-desc mb-5 px-3 px-lg-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla erat id magna suscipit lobortis. Sed eros ligula, ullamcorper</div>
+                        <div className="section-heading-desc mb-5 px-3 px-lg-0">Join the fastest-growing marketplace for collectibles, utilities, real estate, and virtual worlds.</div>
                         
                         <div className="row gy-3 gx-lg-6">
                             <div className="col-lg-6">
                                 <ul className="list-unstyled mb-0 mb-lg-5">
                                     {/* Single Item */}
                                     <li className="list-item">
-                                        <h2 className="ps-3 ps-lg-0 pe-lg-6 fs-3xl fs-lg-5xl mb-0 text-dark">Lorem ipsum dolor</h2>
+                                        <h2 className="ps-3 ps-lg-0 pe-lg-6 fs-3xl fs-lg-5xl mb-0 text-dark">Marketplace</h2>
                                         <hr  className='border-primary opacity-100 pb-3 mb-3'/>
                                         <div className="ps-3 ps-lg-0 pe-lg-6 fs-md-xl">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut justo leo. 
+                                        All NFTs, Collectibles, LAND, Arts, Utility, Trading Card 
                                         </div>
                                         <div className="my-3 my-lg-8 my-xl-10"></div>
                                     </li>
                                     {/* Single Item */}
                                     <li className="list-item">
-                                        <h2 className="ps-3 ps-lg-0 pe-lg-6 fs-3xl fs-lg-5xl mb-0 text-dark">Lorem ipsum dolor</h2>
+                                        <h2 className="ps-3 ps-lg-0 pe-lg-6 fs-3xl fs-lg-5xl mb-0 text-dark">Analytics</h2>
                                         <hr  className='border-primary opacity-100 pb-3 mb-3'/>
                                         <div className="ps-3 ps-lg-0 pe-lg-6 fs-md-xl">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut justo leo. 
+                                        Market data, Activity 
                                         </div>
                                         <div className="my-3 my-lg-8 my-xl-10"></div>
                                     </li>
@@ -54,7 +54,7 @@ const Features = () => {
                                     <li className="list-item">
                                         <div className="my-3 my-lg-8 my-xl-10"></div>
 
-                                        <h2 className="ps-3 ps-lg-0 pe-lg-6 fs-3xl fs-lg-5xl mb-0 text-dark">Lorem ipsum dolor</h2>
+                                        <h2 className="ps-3 ps-lg-0 pe-lg-6 fs-3xl fs-lg-5xl mb-0 text-dark">Earn</h2>
                                         <hr  className='border-primary opacity-100 pb-3 mb-3'/>
                                         <div className="ps-3 ps-lg-0 pe-lg-6 fs-md-xl">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut justo leo. 
