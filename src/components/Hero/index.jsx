@@ -11,7 +11,7 @@ const Hero = () => {
             <div className="row">
                 <div className="col-lg-7">
                     <div className="hero-content mb-5">
-                        <h1 className="fs-6xl fs-xxl-7xl mb-2">New era for <br /> the Lottery & NFTs</h1>
+                        <h1 className="fs-6xl fs-xxl-7xl mb-2">NFT Lottery & NFT Marketplace for the New Age</h1>
                         <p className='fs-3xl  mb-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         <a href="#" className="btn btn-warning">Get Started</a>
                     </div>
