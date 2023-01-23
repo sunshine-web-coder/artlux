@@ -56,6 +56,10 @@ const Header = () => {
                 name: "Lottery",
                 slug: '#lottery',
             },
+            {
+                name: "Whitepaper",
+                slug: 'https://artlux.gitbook.io/artlux-whitepaper/',
+            },
         ]
     }
   return (
