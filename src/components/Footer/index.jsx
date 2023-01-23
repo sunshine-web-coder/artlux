@@ -29,7 +29,7 @@ const Footer = () => {
         <div className="container-lg">
             <div className="row g-4">
                 <div className="col-lg-4">
-                    <div className="footer-copyright fs-lg">© 2023 Artlux</div>
+                    <div className="footer-copyright fs-lg">© 2023 Artlux Inc</div>
                 </div>
                 <div className="col-xxl-5 col-lg-4">
                     <div className="row gy-5">

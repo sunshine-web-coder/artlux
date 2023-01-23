@@ -15,7 +15,7 @@ const Lottery = () => {
                         <div className="lottery-description mb-4">
                             <p>Connect wallet to buy tickets and start playing in our flagship NFT Lottery. More stakes, more cashouts. Large prize pool enough to reach all participants. Instant cashout after draws.</p>
                         </div>
-                        <a href='#' className="btn btn-warning">Enter Draw Now</a>
+                        <a href='https://www.lottery.artlux.io/' className="btn btn-warning">Enter Draw Now</a>
                     </div>
                 </div>
             </div>
