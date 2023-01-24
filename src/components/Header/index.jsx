@@ -46,15 +46,15 @@ const Header = () => {
         navmenu: [
             {
                 name: "Home",
-                slug: '#home',
+                slug: '/',
             },
             {
                 name: "NFTs",
-                slug: '#nfts',
+                slug: 'https://nft.artlux.io/',
             },
             {
                 name: "Lottery",
-                slug: '#lottery',
+                slug: 'https://www.lottery.artlux.io/',
             },
             {
                 name: "Whitepaper",
@@ -100,7 +100,7 @@ const Header = () => {
             {data && data.navmenu &&
             <ul className="list-unstyled">
                 {data.navmenu.map((item, i) =>(
-                    <li key={i}><Link to={item.slug} className="text-white fs-sm">{item.name}</Link></li>
+                    <li key={i}><a href={item.slug} className="text-white fs-sm">{item.name}</a></li>
                 ))}
                 <span className='btn btn-light rounded-pill w-100'>Get Started</span>
             </ul>
