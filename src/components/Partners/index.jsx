@@ -20,7 +20,8 @@ const Partners = () => {
         slug: "https://github.com/cyberscope-io/audits/blob/main/2-atx/audit.pdf" },
         { img: logo7,
         slug: "https://coinhunt.cc/coin/63d2e9f774c4066dfc96a7d4" },
-        { img: logo8 },
+        { img: logo8,
+        slug: "https://coinsniper.net/coin/43681" },
     ]
   return (
     <section className='py-5 py-lg-7'>
