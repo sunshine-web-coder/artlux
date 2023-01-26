@@ -1,0 +1,21 @@
+.partners_con {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  .jjjf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: dashed;
+    padding: 10px;
+    img {
+      width: 150px;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  @media screen and (max-width: 550px) {
+    grid-template-columns: 1fr 1fr;
+  }
+}

@@ -22,19 +22,37 @@ const Footer = () => {
                 
             ]
         },
+        {
+            title: "Products",
+            list: [
+                {
+                    title: "Lottery",
+                    slug: 'https://www.lottery.artlux.io/',
+                },
+                {
+                    title: "NFT aggregator",
+                    slug: 'https://aggregator.artlux.io/',
+                },
+                {
+                    title: "NFT Marketplace (beta)",
+                    slug: 'https://aggregator.artlux.io/',
+                },
+                
+            ]
+        },
     ]
 
   return (
     <footer className="footer bg-primary py-5 py-lg-6 text-white">
         <div className="container-lg">
-            <div className="row g-4">
-                <div className="col-lg-4">
+            <div className="fCol">
+                <div className="">
                     <div className="footer-copyright fs-lg">© 2023 Artlux Inc</div>
                 </div>
-                <div className="col-xxl-5 col-lg-4">
-                    <div className="row gy-5">
+                <div className="">
+                    <div className="jdjdj">
                         {Links && Links.map((a, akey) => (
-                            <div key={akey} className='col-lg-6 fLink'>
+                            <div key={akey} className='fLink'>
                                 {a.title && <h4 className='h4'>{a.title}</h4>}
                                 {a.list && <ul className="list-unstyled mb-0 quick-links mt-3">
                                     {a.list.map((b, bkey) =>(
@@ -46,7 +64,7 @@ const Footer = () => {
                         ))}
                     </div>
                 </div>
-                <div className="col-xxl-5 col-lg-4">
+                <div className="f_social_link">
                     <h4>Social</h4>
                     <div className="social_link">
                         <a href="https://t.me/artluxio"><FaTelegramPlane /></a>
