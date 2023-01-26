@@ -25,7 +25,7 @@ const Footer = () => {
                 },
                 {
                     title: "Audit",
-                    slug: '',
+                    slug: 'https://github.com/cyberscope-io/audits/blob/main/2-atx/audit.pdf',
                 },
                 
             ]

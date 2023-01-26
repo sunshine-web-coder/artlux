@@ -11,14 +11,15 @@ import logo8 from './images/8.png';
 
 const Partners = () => {
     const data = [
-        { url: logo1 },
-        { url: logo2 },
-        { url: logo3 },
-        { url: logo4 },
-        { url: logo5 },
-        { url: logo6 },
-        { url: logo7 },
-        { url: logo8 },
+        { img: logo1 },
+        { img: logo2 },
+        { img: logo3 },
+        { img: logo4 },
+        { img: logo5 },
+        { img: logo6,
+        slug: "https://github.com/cyberscope-io/audits/blob/main/2-atx/audit.pdf" },
+        { img: logo7 },
+        { img: logo8 },
     ]
   return (
     <section className='py-5 py-lg-7'>
@@ -31,7 +32,7 @@ const Partners = () => {
                 </div>
             </div>
             <div className="partners_con">
-                {data && data.map((item, i) =><div key={i} className="jjjf"><img className='img-fluid' src={item.url} /></div>)}
+                {data && data.map((item, i) =><div key={i} className="jjjf"><a href={item.slug}><img className='img-fluid' src={item.img} /></a></div>)}
             </div>
         </div>
     </section>
