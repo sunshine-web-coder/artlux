@@ -9,7 +9,7 @@ import "./Footer.scss"
 const Footer = () => {
     const Links = [
         {
-            title: "Links",
+            title: "About Us",
             list: [
                 {
                     title: "Whitepaper",
@@ -17,7 +17,15 @@ const Footer = () => {
                 },
                 {
                     title: "Tokenomics",
-                    slug: '#tokenomics',
+                    slug: 'https://artlux.gitbook.io/artlux-whitepaper/the-artlux-token-atx/artlux-token-atx-tokenomics',
+                },
+                {
+                    title: "DOXX KYC",
+                    slug: '',
+                },
+                {
+                    title: "Audit",
+                    slug: '',
                 },
                 
             ]
@@ -73,6 +81,7 @@ const Footer = () => {
                         <a href="https://www.youtube.com/channel/UCQ7JP0DXzRA4u1PJmN3SjiQ"><BsYoutube /></a>
                         <a href="https://medium.com/@nftartlux"><AiOutlineMedium /></a>
                     </div>
+                    <p className="mt-3"><a href="mailto:hello@artlux.io">hello@artlux.io</a></p>
                 </div>
             </div>
         </div>
