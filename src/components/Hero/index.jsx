@@ -13,7 +13,7 @@ const Hero = () => {
                     <div className="hero-content mb-5">
                         <h1 className="fs-6xl fs-xxl-7xl mb-2">NFT Lottery & NFT Marketplace for the New Age</h1>
                         <p className='fs-3xl  mb-5'>Play and earn with Artlux NFT Lottery. Buy and sell NFTs from high-value artists</p>
-                        <a href="#" className="btn btn-warning">Get Started</a>
+                        <a href="https://t.me/artluxio" className="btn btn-warning">Get Started</a>
                     </div>
                     <div className="hero-section-banner-area text-end text-lg-start">
                         <img src={Banner} alt="" className='hero-section-banner'/>

@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import { FaTelegramPlane } from 'react-icons/fa';
 import { BsTwitter, BsLinkedin, BsInstagram, BsYoutube } from 'react-icons/bs';
-import { AiOutlineInstagram } from 'react-icons/ai';
+import { AiOutlineInstagram, AiOutlineMedium } from 'react-icons/ai';
 import "./Footer.scss"
 
 const Footer = () => {
@@ -49,11 +49,11 @@ const Footer = () => {
                 <div className="col-xxl-5 col-lg-4">
                     <h4>Social</h4>
                     <div className="social_link">
-                        <a href=""><FaTelegramPlane /></a>
-                        <a href=""><BsTwitter /></a>
-                        <a href=""><BsInstagram /></a>
-                        <a href=""><BsLinkedin /></a>
-                        <a href=""><BsYoutube /></a>
+                        <a href="https://t.me/artluxio"><FaTelegramPlane /></a>
+                        <a href="https://twitter.com/Artlux_io"><BsTwitter /></a>
+                        <a href="https://www.instagram.com/artlux_io"><BsLinkedin /></a>
+                        <a href="https://www.youtube.com/channel/UCQ7JP0DXzRA4u1PJmN3SjiQ"><BsYoutube /></a>
+                        <a href="https://medium.com/@nftartlux"><AiOutlineMedium /></a>
                     </div>
                 </div>
             </div>

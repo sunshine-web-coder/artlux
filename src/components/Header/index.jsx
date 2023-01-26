@@ -86,7 +86,7 @@ const Header = () => {
                 </Nav>
                 }
             <Nav>
-                <Nav.Link className='p-0 d-block' href="/"><span className='btn btn-light'>Get Started</span></Nav.Link>
+                <Nav.Link className='p-0 d-block' href="https://t.me/artluxio"><span className='btn btn-light'>Get Started</span></Nav.Link>
             </Nav>
             </Navbar.Collapse>
         </div>
@@ -102,7 +102,7 @@ const Header = () => {
                 {data.navmenu.map((item, i) =>(
                     <li key={i}><a href={item.slug} className="text-white fs-sm">{item.name}</a></li>
                 ))}
-                <span className='btn btn-light rounded-pill w-100'>Get Started</span>
+                <a href="https://t.me/artluxio"><span className='btn btn-light rounded-pill w-100'>Get Started</span></a>
             </ul>
             }
         </motion.div>
