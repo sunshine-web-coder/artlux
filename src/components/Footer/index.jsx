@@ -69,7 +69,7 @@ const Footer = () => {
                     <div className="social_link">
                         <a href="https://t.me/artluxio"><FaTelegramPlane /></a>
                         <a href="https://twitter.com/Artlux_io"><BsTwitter /></a>
-                        <a href="https://www.instagram.com/artlux_io"><BsLinkedin /></a>
+                        <a href="https://www.instagram.com/artlux_io"><BsInstagram /></a>
                         <a href="https://www.youtube.com/channel/UCQ7JP0DXzRA4u1PJmN3SjiQ"><BsYoutube /></a>
                         <a href="https://medium.com/@nftartlux"><AiOutlineMedium /></a>
                     </div>
