@@ -53,6 +53,10 @@ const Header = () => {
                 slug: 'https://nft.artlux.io/',
             },
             {
+                name: "NFT aggregator",
+                slug: 'https://aggregator.artlux.io/',
+            },
+            {
                 name: "Lottery",
                 slug: 'https://www.lottery.artlux.io/',
             },

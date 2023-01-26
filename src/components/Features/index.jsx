@@ -102,11 +102,11 @@ const Features = () => {
                         <div className="my-3 my-lg-8 my-xl-10"></div>
 
                         <h2 className="ps-3 ps-lg-0 pe-lg-6 fs-3xl fs-lg-5xl mb-0 text-dark">
-                          Earn
+                          NFT Aggregator
                         </h2>
                         <hr className="border-primary opacity-100 pb-3 mb-3" />
                         <div className="ps-3 ps-lg-0 pe-lg-6 fs-md-xl">
-                          NFT Staking, NFT Games
+                        Access NFTs from other leading marketplaces from your favourite artists
                         </div>
                       </li>
                       {/* Single Item */}
@@ -114,7 +114,13 @@ const Features = () => {
                   </div>
                 </div>
               </div>
-              <a href='https://nft.artlux.io/' className="btn btn-warning">Start Playing</a>
+              <div className="djsdj">
+                <a href='https://nft.artlux.io/' className="btn btn-warning">Start Playing</a>
+              </div>
+              <div className="djsdj mt-4">
+                <a href='https://aggregator.artlux.io/' className="btn btn-warning">NFT Aggregator</a>
+              </div>
+              
             </div>
           )}
         </div>
