@@ -115,7 +115,7 @@ const Features = () => {
                 </div>
               </div>
               <div className="djsdj">
-                <a href='https://nft.artlux.io/' className="btn btn-warning">NFT Marketplace</a>
+                <a href='https://nft.artlux.io/' className="btn btn-warning">NFT Marketplace (beta)</a>
               </div>
               <div className="djsdj mt-4">
                 <a href='https://aggregator.artlux.io/' className="btn btn-warning">NFT Aggregator</a>

@@ -49,7 +49,7 @@ const Header = () => {
                 slug: '/',
             },
             {
-                name: "NFT Marketplace",
+                name: "NFT Marketplace(beta)",
                 slug: 'https://nft.artlux.io/',
             },
             {
