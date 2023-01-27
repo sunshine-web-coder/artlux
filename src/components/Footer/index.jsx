@@ -54,8 +54,9 @@ const Footer = () => {
     <footer className="footer bg-primary py-5 py-lg-6 text-white">
         <div className="container-lg">
             <div className="fCol">
-                <div className="">
-                    <div className="footer-copyright fs-lg">© 2023 Artlux Inc</div>
+                <div className="footer-copyright">
+                    <p>© 2023 Artlux Inc</p>
+                    <p>Create, Sell And Collect Rare Digital Arts On Artlux NFT Marketplace. Play And Earn With Your NFTs On The Artlux NFT Lottery Platform.</p>
                 </div>
                 <div className="">
                     <div className="jdjdj">
