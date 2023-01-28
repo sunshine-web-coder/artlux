@@ -43,7 +43,7 @@ const Footer = () => {
                 },
                 {
                     title: "NFT Marketplace (beta)",
-                    slug: 'https://aggregator.artlux.io/',
+                    slug: 'https://www.nft.artlux.io/',
                 },
                 
             ]
