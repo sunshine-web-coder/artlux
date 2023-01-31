@@ -42,7 +42,7 @@ const Cta = () => {
                             <a href='https://aggregator.artlux.io/' className="btn btn-warning">NFT Aggregator</a>
                         </div>
                         <div className="mt-4">
-                            <a href='javascript:void(0)' className="btn btn-warning">AI Images</a>
+                            <a href='https://www.fotor.com/features/ai-image-generator/' className="btn btn-warning">Create AI Images</a>
                         </div>
                     </div>
                 </div>
