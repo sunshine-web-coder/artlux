@@ -41,6 +41,9 @@ const Cta = () => {
                         <div className="mt-4">
                             <a href='https://aggregator.artlux.io/' className="btn btn-warning">NFT Aggregator</a>
                         </div>
+                        <div className="mt-4">
+                            <a href='javascript:void(0)' className="btn btn-warning">AI Images</a>
+                        </div>
                     </div>
                 </div>
             </div>
