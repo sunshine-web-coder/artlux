@@ -77,8 +77,7 @@ const Features = () => {
                         </h2>
                         <hr className="border-primary opacity-100 pb-3 mb-3" />
                         <div className="ps-3 ps-lg-0 pe-lg-6 fs-md-xl">
-                          All NFTs, Collectibles, LAND, Arts, Utility, Trading
-                          Card
+                        Generate AI based NFTs, Collectibles, LAND, Arts, Utility, Trading Card for free and trade on Our exclusive market place
                         </div>
                         <div className="my-3 my-lg-8 my-xl-10"></div>
                       </li>

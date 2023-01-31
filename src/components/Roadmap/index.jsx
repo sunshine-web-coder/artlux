@@ -84,6 +84,7 @@ const Roadmap = () => {
                                     <li>NFT Games </li>
                                     <li>Artlux Metaverse </li>
                                     <li>Artlux Mobile app </li>
+                                    <li>AI image Generator integration </li>
                                 </ul>
                             </div>
                         </div>
