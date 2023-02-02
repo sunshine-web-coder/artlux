@@ -21,7 +21,7 @@ const Footer = () => {
                 },
                 {
                     title: "DOXX KYC",
-                    slug: '',
+                    slug: 'https://youtu.be/trYk8vQ8rOo',
                 },
                 {
                     title: "Audit",
