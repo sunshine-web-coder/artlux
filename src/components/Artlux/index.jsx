@@ -16,7 +16,7 @@ const Artlux = () => {
                         <h3 className="fs-4xl fs-lg-6xl text-black fw-bold mb-3">Artlux token</h3>
                         <p>Artlux Token (ATX) is a BEP20 token built to scale and power the Artlux ecosystem. Explore the Artlux present and future universe with the Artlux Token (ATX). Buy and sell NFTs, participate in lotteries, pay for fees, and earn more on Artlux using the $ATX token.</p>
                         <div className="mt-4">
-                            <a href='#' className="btn btn-warning">Join Presale</a>
+                            <a href='https://www.pinksale.finance/launchpad/0x42eA44bDdb0d50A0258DC6027774C0C53f8aE01E?chain=BSC' className="btn btn-warning">Join Presale</a>
                         </div>
                     </div>
                 </div>

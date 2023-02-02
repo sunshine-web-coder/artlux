@@ -11,10 +11,12 @@ import logo8 from './images/8.png';
 
 const Partners = () => {
     const data = [
-        { img: logo1 },
+        { img: logo1,
+        slug: "https://t.me/azbit_news/1266" },
         { img: logo2 },
         { img: logo3 },
-        { img: logo4 },
+        { img: logo4,
+        slug:"https://www.pinksale.finance/launchpad/0x42eA44bDdb0d50A0258DC6027774C0C53f8aE01E?chain=BSC" },
         { img: logo5,
         slug: "https://www.fotor.com/features/ai-image-generator/",
         },
