@@ -55,7 +55,7 @@ const Footer = () => {
         <div className="container-lg">
             <div className="fCol">
                 <div className="footer-copyright">
-                    <p>© 2023 Artlux Inc</p>
+                    <p>© 2024 Artlux Inc</p>
                     <p>Create, Sell And Collect Rare Digital Arts On Artlux NFT Marketplace. Play And Earn With Your NFTs On The Artlux NFT Lottery Platform.</p>
                 </div>
                 <div className="">
